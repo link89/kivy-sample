@@ -5,7 +5,9 @@ description = ""
 authors = ["weihong.xu <xuweihong.cn@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.8"
+python = "^3.8"
+Kivy = {extras = ["base"], version = "^2.1.0"}
+kivymd = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 
